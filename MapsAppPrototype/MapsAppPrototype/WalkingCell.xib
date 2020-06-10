@@ -15,16 +15,47 @@
                 <rect key="frame" x="0.0" y="0.0" width="414" height="201"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KYW-UL-Dzz">
-                        <rect key="frame" x="105" y="23" width="42" height="21"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <nil key="textColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="J8X-Xz-TN5" userLabel="Cell Stack View">
+                        <rect key="frame" x="20" y="11" width="374" height="179"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eyeglass-icon" translatesAutoresizingMaskIntoConstraints="NO" id="AJm-Q7-fqI">
+                                <rect key="frame" x="0.0" y="69.5" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="0ZX-wf-EPU"/>
+                                    <constraint firstAttribute="height" constant="40" id="ho8-tz-Z0L"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="huh-wS-EgT" userLabel="Steps Stack View">
+                                <rect key="frame" x="42" y="59" width="332" height="61.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KYW-UL-Dzz">
+                                        <rect key="frame" x="0.0" y="0.0" width="40" height="20.5"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="538 Washington St, Hoboken, NJ 07030, United States" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HgG-aM-CaV">
+                                        <rect key="frame" x="0.0" y="20.5" width="317.5" height="41"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
                 </subviews>
+                <constraints>
+                    <constraint firstItem="J8X-Xz-TN5" firstAttribute="top" secondItem="16q-Dq-kpw" secondAttribute="topMargin" id="75w-a3-7tD"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="J8X-Xz-TN5" secondAttribute="bottom" id="MBx-QE-hdK"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="J8X-Xz-TN5" secondAttribute="trailing" id="xeT-zG-pIX"/>
+                    <constraint firstItem="J8X-Xz-TN5" firstAttribute="leading" secondItem="16q-Dq-kpw" secondAttribute="leadingMargin" id="zag-8R-NVA"/>
+                </constraints>
             </tableViewCellContentView>
-            <point key="canvasLocation" x="89.855072463768124" y="87.388392857142847"/>
+            <point key="canvasLocation" x="-709" y="30"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="eyeglass-icon" width="79" height="82"/>
+    </resources>
 </document>
