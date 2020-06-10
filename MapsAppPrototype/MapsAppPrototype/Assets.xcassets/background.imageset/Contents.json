@@ -1,18 +1,21 @@
 {
   "images" : [
     {
-      "filename" : "red-button.pdf",
+      "filename" : "background.pdf",
       "idiom" : "universal",
       "resizing" : {
         "cap-insets" : {
-          "left" : 10,
-          "right" : 10
+          "bottom" : 15,
+          "left" : 15,
+          "right" : 15,
+          "top" : 15
         },
         "center" : {
+          "height" : 1,
           "mode" : "tile",
           "width" : 1
         },
-        "mode" : "3-part-horizontal"
+        "mode" : "9-part"
       }
     }
   ],

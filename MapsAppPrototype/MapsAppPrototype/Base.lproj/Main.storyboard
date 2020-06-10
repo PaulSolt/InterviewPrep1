@@ -15,20 +15,34 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WV1-qd-LwJ">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WV1-qd-LwJ">
                                 <rect key="frame" x="16" y="44" width="343" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="vBE-aI-Kac"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" image="tram.fill" catalog="system" backgroundImage="red-button"/>
+                                <state key="normal" image="tram.fill" catalog="system" backgroundImage="red-button">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PcP-wG-xDa">
+                                <rect key="frame" x="16" y="112" width="343" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="fHr-Pc-qS8"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="tram.fill" catalog="system" backgroundImage="background">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
+                                </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="PcP-wG-xDa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="7CX-H6-mhm"/>
                             <constraint firstItem="WV1-qd-LwJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Ehx-El-bKc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WV1-qd-LwJ" secondAttribute="trailing" constant="16" id="h71-5P-qE0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PcP-wG-xDa" secondAttribute="trailing" constant="16" id="lsM-3S-aWM"/>
+                            <constraint firstItem="PcP-wG-xDa" firstAttribute="top" secondItem="WV1-qd-LwJ" secondAttribute="bottom" constant="8" id="ozl-zx-uP4"/>
                             <constraint firstItem="WV1-qd-LwJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="rfd-zF-Bp4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -36,10 +50,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="137.4384236453202"/>
+            <point key="canvasLocation" x="-417" y="163"/>
         </scene>
     </scenes>
     <resources>
+        <image name="background" width="31" height="31"/>
         <image name="red-button" width="21" height="60"/>
         <image name="tram.fill" catalog="system" width="98" height="128"/>
     </resources>
