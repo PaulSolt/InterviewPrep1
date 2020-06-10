@@ -21,7 +21,7 @@
                                     <constraint firstAttribute="height" constant="60" id="vBE-aI-Kac"/>
                                 </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" image="tram.fill" catalog="system" backgroundImage="red-button">
+                                <state key="normal" image="tram.fill" catalog="system">
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
                                 </state>
                             </button>
@@ -30,8 +30,9 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="fHr-Pc-qS8"/>
                                 </constraints>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" image="tram.fill" catalog="system" backgroundImage="background">
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="tram.fill" catalog="system">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
                                 </state>
                             </button>
@@ -54,8 +55,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="background" width="31" height="31"/>
-        <image name="red-button" width="21" height="60"/>
         <image name="tram.fill" catalog="system" width="98" height="128"/>
     </resources>
 </document>
