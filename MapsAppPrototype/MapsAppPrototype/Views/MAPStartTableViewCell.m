@@ -1,25 +1,24 @@
 //
-//  WalkingCell.m
+//  MAPStartTableViewCell.m
 //  MapsAppPrototype
 //
-//  Created by Paul Solt on 6/10/20.
+//  Created by Audrey Welch on 6/11/20.
 //  Copyright © 2020 Lambda, Inc. All rights reserved.
 //
 
-#import "WalkingCell.h"
+#import "MAPStartTableViewCell.h"
 
 // Class Extension
+@interface MAPStartTableViewCell ()
 
-@interface WalkingCell ()
-
-// Private IBOutlet
-@property IBOutlet UILabel *label;
-
+// Private IBOutlets
+@property IBOutlet UILabel *startLabel;
+@property IBOutlet UIImageView *startIconImageView;
 
 @end
 
-
-@implementation WalkingCell
+// Implementation
+@implementation MAPStartTableViewCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];

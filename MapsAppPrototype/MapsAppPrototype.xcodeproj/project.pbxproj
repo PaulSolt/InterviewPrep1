@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD521D622491ACF30024FE8A /* WalkingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD521D612491ACF30024FE8A /* WalkingCell.m */; };
+		84CE76702492B81500197B23 /* MAPStartTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CE766F2492B81500197B23 /* MAPStartTableViewCell.m */; };
+		84CE76732492BA9300197B23 /* MAPTransitTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CE76722492BA9300197B23 /* MAPTransitTableViewCell.m */; };
+		84CE76762492BD1900197B23 /* MAPDetailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CE76752492BD1900197B23 /* MAPDetailsTableViewController.m */; };
+		BD521D622491ACF30024FE8A /* MAPWalkingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD521D612491ACF30024FE8A /* MAPWalkingTableViewCell.m */; };
 		BD9451A924918ECF007D5FB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9451A824918ECF007D5FB0 /* AppDelegate.m */; };
 		BD9451AC24918ECF007D5FB0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9451AB24918ECF007D5FB0 /* SceneDelegate.m */; };
-		BD9451AF24918ECF007D5FB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9451AE24918ECF007D5FB0 /* ViewController.m */; };
 		BD9451B224918ECF007D5FB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD9451B024918ECF007D5FB0 /* Main.storyboard */; };
 		BD9451B424918ED2007D5FB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9451B324918ED2007D5FB0 /* Assets.xcassets */; };
 		BD9451B724918ED2007D5FB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD9451B524918ED2007D5FB0 /* LaunchScreen.storyboard */; };
@@ -19,15 +21,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BD521D602491ACF30024FE8A /* WalkingCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WalkingCell.h; sourceTree = "<group>"; };
-		BD521D612491ACF30024FE8A /* WalkingCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalkingCell.m; sourceTree = "<group>"; };
+		84CE766E2492B81500197B23 /* MAPStartTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAPStartTableViewCell.h; sourceTree = "<group>"; };
+		84CE766F2492B81500197B23 /* MAPStartTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAPStartTableViewCell.m; sourceTree = "<group>"; };
+		84CE76712492BA9300197B23 /* MAPTransitTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAPTransitTableViewCell.h; sourceTree = "<group>"; };
+		84CE76722492BA9300197B23 /* MAPTransitTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAPTransitTableViewCell.m; sourceTree = "<group>"; };
+		84CE76742492BD1900197B23 /* MAPDetailsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAPDetailsTableViewController.h; sourceTree = "<group>"; };
+		84CE76752492BD1900197B23 /* MAPDetailsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAPDetailsTableViewController.m; sourceTree = "<group>"; };
+		BD521D602491ACF30024FE8A /* MAPWalkingTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAPWalkingTableViewCell.h; sourceTree = "<group>"; };
+		BD521D612491ACF30024FE8A /* MAPWalkingTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAPWalkingTableViewCell.m; sourceTree = "<group>"; };
 		BD9451A424918ECF007D5FB0 /* MapsAppPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapsAppPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9451A724918ECF007D5FB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BD9451A824918ECF007D5FB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BD9451AA24918ECF007D5FB0 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		BD9451AB24918ECF007D5FB0 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		BD9451AD24918ECF007D5FB0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BD9451AE24918ECF007D5FB0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BD9451B124918ECF007D5FB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD9451B324918ED2007D5FB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD9451B624918ED2007D5FB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84CE76692492B73800197B23 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84CE766E2492B81500197B23 /* MAPStartTableViewCell.h */,
+				84CE766F2492B81500197B23 /* MAPStartTableViewCell.m */,
+				BD521D602491ACF30024FE8A /* MAPWalkingTableViewCell.h */,
+				BD521D612491ACF30024FE8A /* MAPWalkingTableViewCell.m */,
+				84CE76712492BA9300197B23 /* MAPTransitTableViewCell.h */,
+				84CE76722492BA9300197B23 /* MAPTransitTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84CE766A2492B74600197B23 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BD9451B024918ECF007D5FB0 /* Main.storyboard */,
+				BD9451B524918ED2007D5FB0 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		84CE766B2492B75800197B23 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				BD9451C024918F38007D5FB0 /* WalkingCell.xib */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		84CE766C2492B76A00197B23 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BD9451A724918ECF007D5FB0 /* AppDelegate.h */,
+				BD9451A824918ECF007D5FB0 /* AppDelegate.m */,
+				BD9451AA24918ECF007D5FB0 /* SceneDelegate.h */,
+				BD9451AB24918ECF007D5FB0 /* SceneDelegate.m */,
+				BD9451B324918ED2007D5FB0 /* Assets.xcassets */,
+				BD9451B824918ED2007D5FB0 /* Info.plist */,
+				BD9451B924918ED2007D5FB0 /* main.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		84CE766D2492B7A200197B23 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84CE76742492BD1900197B23 /* MAPDetailsTableViewController.h */,
+				84CE76752492BD1900197B23 /* MAPDetailsTableViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		BD94519B24918ECE007D5FB0 = {
 			isa = PBXGroup;
 			children = (
@@ -66,20 +125,11 @@
 		BD9451A624918ECF007D5FB0 /* MapsAppPrototype */ = {
 			isa = PBXGroup;
 			children = (
-				BD9451A724918ECF007D5FB0 /* AppDelegate.h */,
-				BD9451A824918ECF007D5FB0 /* AppDelegate.m */,
-				BD9451AA24918ECF007D5FB0 /* SceneDelegate.h */,
-				BD9451AB24918ECF007D5FB0 /* SceneDelegate.m */,
-				BD9451AD24918ECF007D5FB0 /* ViewController.h */,
-				BD9451AE24918ECF007D5FB0 /* ViewController.m */,
-				BD9451B024918ECF007D5FB0 /* Main.storyboard */,
-				BD521D602491ACF30024FE8A /* WalkingCell.h */,
-				BD521D612491ACF30024FE8A /* WalkingCell.m */,
-				BD9451C024918F38007D5FB0 /* WalkingCell.xib */,
-				BD9451B324918ED2007D5FB0 /* Assets.xcassets */,
-				BD9451B524918ED2007D5FB0 /* LaunchScreen.storyboard */,
-				BD9451B824918ED2007D5FB0 /* Info.plist */,
-				BD9451B924918ED2007D5FB0 /* main.m */,
+				84CE766B2492B75800197B23 /* Design */,
+				84CE766A2492B74600197B23 /* Storyboards */,
+				84CE76692492B73800197B23 /* Views */,
+				84CE766D2492B7A200197B23 /* View Controllers */,
+				84CE766C2492B76A00197B23 /* Resources */,
 			);
 			path = MapsAppPrototype;
 			sourceTree = "<group>";
@@ -155,8 +205,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD9451AF24918ECF007D5FB0 /* ViewController.m in Sources */,
-				BD521D622491ACF30024FE8A /* WalkingCell.m in Sources */,
+				84CE76732492BA9300197B23 /* MAPTransitTableViewCell.m in Sources */,
+				84CE76702492B81500197B23 /* MAPStartTableViewCell.m in Sources */,
+				84CE76762492BD1900197B23 /* MAPDetailsTableViewController.m in Sources */,
+				BD521D622491ACF30024FE8A /* MAPWalkingTableViewCell.m in Sources */,
 				BD9451A924918ECF007D5FB0 /* AppDelegate.m in Sources */,
 				BD9451BA24918ED2007D5FB0 /* main.m in Sources */,
 				BD9451AC24918ECF007D5FB0 /* SceneDelegate.m in Sources */,
@@ -301,7 +353,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LCRLD36TZ6;
-				INFOPLIST_FILE = MapsAppPrototype/Info.plist;
+				INFOPLIST_FILE = MapsAppPrototype/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,7 +370,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LCRLD36TZ6;
-				INFOPLIST_FILE = MapsAppPrototype/Info.plist;
+				INFOPLIST_FILE = MapsAppPrototype/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

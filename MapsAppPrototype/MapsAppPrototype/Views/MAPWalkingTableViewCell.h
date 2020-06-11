@@ -13,7 +13,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface WalkingCell : UITableViewCell
+@interface MAPWalkingTableViewCell : UITableViewCell
 
 // dependency injection
 @property TransitStep *step; // updateViews
