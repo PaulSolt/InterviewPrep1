@@ -100,9 +100,148 @@
             </tableViewCellContentView>
             <point key="canvasLocation" x="-1238.4057971014495" y="80.691964285714278"/>
         </tableViewCell>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="261" id="UOh-js-ZoL">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="261"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UOh-js-ZoL" id="yFx-dv-7a0">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="261"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="ba5-RZ-Moq" userLabel="Time Stack View">
+                        <rect key="frame" x="329.5" y="11" width="64.5" height="36.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4, 6 min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gAD-Dn-bDF">
+                                <rect key="frame" x="2.5" y="0.0" width="62" height="20.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scheduled" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bQ-SM-qy0">
+                                <rect key="frame" x="0.0" y="20.5" width="64.5" height="16"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="CYa-sr-fMs" userLabel="Cell Stack View">
+                        <rect key="frame" x="20" y="14.5" width="254" height="76.5"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nj-transit" translatesAutoresizingMaskIntoConstraints="NO" id="gbW-1i-07P">
+                                <rect key="frame" x="0.0" y="18.5" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="IBA-3E-bsj"/>
+                                    <constraint firstAttribute="height" constant="40" id="eTB-fb-hmb"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="QkH-oD-GOP" userLabel="Labels Stack View">
+                                <rect key="frame" x="50" y="0.0" width="204" height="76.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Take the NJ Transit 89 or 126 bus" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wy2-0x-tI2">
+                                        <rect key="frame" x="0.0" y="0.0" width="204" height="42.5"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Toward Hoboken Terminal or Hoboken-Path" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2iN-ec-bdz">
+                                        <rect key="frame" x="0.0" y="42.5" width="176.5" height="34"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                        <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cvb-al-Eyy" userLabel="Service Changes View">
+                        <rect key="frame" x="20" y="99" width="374" height="44"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="MlS-DV-jVA">
+                                <rect key="frame" x="2" y="2" width="163.5" height="40"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="service-changes" translatesAutoresizingMaskIntoConstraints="NO" id="gSh-mY-1Ib">
+                                        <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="6pd-k0-Fnk"/>
+                                            <constraint firstAttribute="width" constant="40" id="gio-Wa-7jD"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Service changes" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZtC-gu-tEi">
+                                        <rect key="frame" x="50" y="11" width="113.5" height="18"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1d ago" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EZE-Bi-lJa">
+                                <rect key="frame" x="325.5" y="14" width="40.5" height="16"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                <color key="textColor" systemColor="tertiaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.96553522349999998" blue="0.91097623110000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="EZE-Bi-lJa" firstAttribute="centerY" secondItem="cvb-al-Eyy" secondAttribute="centerY" id="7m5-c9-CTO"/>
+                            <constraint firstAttribute="bottom" secondItem="MlS-DV-jVA" secondAttribute="bottom" constant="2" id="Jot-2w-eQG"/>
+                            <constraint firstAttribute="trailing" secondItem="EZE-Bi-lJa" secondAttribute="trailing" constant="8" id="XMn-45-b6o"/>
+                            <constraint firstItem="MlS-DV-jVA" firstAttribute="top" secondItem="cvb-al-Eyy" secondAttribute="top" constant="2" id="ZFv-CC-17g"/>
+                            <constraint firstItem="MlS-DV-jVA" firstAttribute="leading" secondItem="cvb-al-Eyy" secondAttribute="leading" constant="2" id="cYD-nE-KlL"/>
+                        </constraints>
+                    </view>
+                    <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="eC9-pV-SHa" userLabel="Steps Stack View">
+                        <rect key="frame" x="70" y="155" width="324" height="87"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" image="step-path" translatesAutoresizingMaskIntoConstraints="NO" id="2aV-Od-Yq7">
+                                <rect key="frame" x="0.0" y="0.0" width="11" height="87"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="VmH-uI-ikp" userLabel="Step Labels Stack View">
+                                <rect key="frame" x="19" y="0.0" width="305" height="87"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Washington St &amp; 6th St" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UHx-Mq-b9b">
+                                        <rect key="frame" x="0.0" y="0.0" width="185.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HNL-vd-LGL">
+                                        <rect key="frame" x="0.0" y="28.5" width="132" height="30"/>
+                                        <state key="normal" title="Ride 4 stops, 5 min"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Hoboken Terminal Ln 6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="59a-y3-K8H">
+                                        <rect key="frame" x="0.0" y="66.5" width="183.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="ba5-RZ-Moq" secondAttribute="trailing" id="5ia-Ir-0UL"/>
+                    <constraint firstItem="ba5-RZ-Moq" firstAttribute="top" secondItem="yFx-dv-7a0" secondAttribute="topMargin" id="9Jc-gw-bo4"/>
+                    <constraint firstItem="eC9-pV-SHa" firstAttribute="top" secondItem="cvb-al-Eyy" secondAttribute="bottom" constant="12" id="D1Y-Qc-8xO"/>
+                    <constraint firstItem="cvb-al-Eyy" firstAttribute="leading" secondItem="yFx-dv-7a0" secondAttribute="leadingMargin" id="O0g-kF-veZ"/>
+                    <constraint firstItem="eC9-pV-SHa" firstAttribute="leading" secondItem="yFx-dv-7a0" secondAttribute="leadingMargin" constant="50" id="Wb6-qU-QRd"/>
+                    <constraint firstItem="CYa-sr-fMs" firstAttribute="leading" secondItem="yFx-dv-7a0" secondAttribute="leadingMargin" id="hWH-8f-fFi"/>
+                    <constraint firstItem="cvb-al-Eyy" firstAttribute="trailing" secondItem="yFx-dv-7a0" secondAttribute="trailingMargin" id="nlV-jx-b5C"/>
+                    <constraint firstItem="cvb-al-Eyy" firstAttribute="top" secondItem="CYa-sr-fMs" secondAttribute="bottom" constant="8" id="oN1-N4-h2c"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="eC9-pV-SHa" secondAttribute="bottom" constant="8" id="s7Z-Bx-9cc"/>
+                    <constraint firstItem="ba5-RZ-Moq" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="CYa-sr-fMs" secondAttribute="trailing" constant="8" id="vnR-jy-Oup"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="eC9-pV-SHa" secondAttribute="trailing" id="y7f-wp-8Jf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="-1236.231884057971" y="257.47767857142856"/>
+        </tableViewCell>
     </objects>
     <resources>
         <image name="eyeglass-icon" width="79" height="82"/>
+        <image name="nj-transit" width="68" height="60"/>
         <image name="person" width="88" height="94"/>
+        <image name="service-changes" width="78" height="64"/>
+        <image name="step-path" width="11" height="25"/>
     </resources>
 </document>
