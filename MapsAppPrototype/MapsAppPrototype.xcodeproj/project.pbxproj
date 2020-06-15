@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		843994862496B886005F9A6A /* MAPProgrammaticTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 843994852496B886005F9A6A /* MAPProgrammaticTableViewCell.m */; };
 		84CE76702492B81500197B23 /* MAPStartTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CE766F2492B81500197B23 /* MAPStartTableViewCell.m */; };
 		84CE76732492BA9300197B23 /* MAPTransitTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CE76722492BA9300197B23 /* MAPTransitTableViewCell.m */; };
 		84CE76762492BD1900197B23 /* MAPDetailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CE76752492BD1900197B23 /* MAPDetailsTableViewController.m */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		843994842496B886005F9A6A /* MAPProgrammaticTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAPProgrammaticTableViewCell.h; sourceTree = "<group>"; };
+		843994852496B886005F9A6A /* MAPProgrammaticTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAPProgrammaticTableViewCell.m; sourceTree = "<group>"; };
 		84CE766E2492B81500197B23 /* MAPStartTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAPStartTableViewCell.h; sourceTree = "<group>"; };
 		84CE766F2492B81500197B23 /* MAPStartTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAPStartTableViewCell.m; sourceTree = "<group>"; };
 		84CE76712492BA9300197B23 /* MAPTransitTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAPTransitTableViewCell.h; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				BD521D612491ACF30024FE8A /* MAPWalkingTableViewCell.m */,
 				84CE76712492BA9300197B23 /* MAPTransitTableViewCell.h */,
 				84CE76722492BA9300197B23 /* MAPTransitTableViewCell.m */,
+				843994842496B886005F9A6A /* MAPProgrammaticTableViewCell.h */,
+				843994852496B886005F9A6A /* MAPProgrammaticTableViewCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -205,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843994862496B886005F9A6A /* MAPProgrammaticTableViewCell.m in Sources */,
 				84CE76732492BA9300197B23 /* MAPTransitTableViewCell.m in Sources */,
 				84CE76702492B81500197B23 /* MAPStartTableViewCell.m in Sources */,
 				84CE76762492BD1900197B23 /* MAPDetailsTableViewController.m in Sources */,

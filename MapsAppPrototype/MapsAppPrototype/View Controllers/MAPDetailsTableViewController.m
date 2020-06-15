@@ -7,6 +7,7 @@
 //
 
 #import "MAPDetailsTableViewController.h"
+#import "MAPProgrammaticTableViewCell.h"
 
 @interface MAPDetailsTableViewController ()
 
@@ -16,6 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    // Register the cell
+    [self.tableView registerClass:[MAPProgrammaticTableViewCell class] forCellReuseIdentifier:@"MAPCell"];
+    
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -29,18 +34,23 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 
-    return 10;
+    return 1;
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
     
-    // Configure the cell...
+    MAPProgrammaticTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MAPCell"]; //forIndexPath:indexPath];
+    
+    if (cell == nil) {
+        cell = [[MAPProgrammaticTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"MAPCell"];
+    }
+ 
+    [cell setUpViews];
     
     return cell;
 }
-*/
+
 
 /*
 // Override to support conditional editing of the table view.
